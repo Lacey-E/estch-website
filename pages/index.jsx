@@ -1,13 +1,11 @@
 
 import { CookiesProvider } from 'react-cookie';
 import { getCookie } from 'cookies-next';
-import Link from 'next/link'
 import Footer from "@/components/Footer";
 import HeroSection from "@/components/Hero";
 import NavbarApp from "@/components/Navbar";
 import {NextUIProvider} from "@nextui-org/react";
 import Who from "@/components/Who";
-import ClientForm from './Client';
 import NewApp from './new';
 
 export default function Home({username, users} ) {
